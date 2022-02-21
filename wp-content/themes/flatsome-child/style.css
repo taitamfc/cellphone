@@ -7,6 +7,12 @@ Version: 3.0.1
 */
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
+.align-items-center {
+    align-items: center !important;
+  }
+  .d-flex {
+    display: flex !important;
+  }
 .row.row-main {
 	background: white;
 }
@@ -1922,6 +1928,29 @@ box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
         float: left;
         width: 100%;
     }
+
+    /*cart*/
+    .cart-header {
+        background: #fff;
+        min-height: auto;
+        max-width: 600px;
+        margin: auto;
+        color: #d7000a;
+      }
+      .cart-header .go-back[data-v-17ae9e22] {
+        align-self: center;
+        position: absolute;
+        left: 10px;
+      }
+      .cart-header a {
+        color: #fff;
+        font-weight: 600;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .cart-header p {
+        padding-left: 5px;
+      }
   @media(max-width: 768px){
       .hdevvn-show-cats,.footer.footer-1{
           display: none;

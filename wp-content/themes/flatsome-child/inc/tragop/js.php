@@ -49,8 +49,26 @@ jQuery(document).ready(function () {
         bankProcent.html( number_format(firstPayValue) );
 
         //BANK: so tien tra hang thang
-        //autoCaculate.html();
+        var cardType = jQuery('#cardType').val();
+        var bankId = jQuery('#bankId').val();
+        var ti_le = 0;
+        switch (cardType) {
+            case 'JCB_LOCAL':
+            case 'CUP_LOCAL':    
+                ti_le = 1.028277191;
+                break;
+            case 'VISA_LOCAL':
+            case 'MASTER_LOCAL':    
+                ti_le = 1.020407707;
+                break; 
+            default:
+                break;
+        }
 
+        var monthlyBankValue = ( (product_price - firstPayValue) / timeVay ) * ti_le;
+        if(bankId){
+            autoCaculate.html( number_format(monthlyBankValue) );
+        }
     }
 
     //thoi han vay
@@ -90,11 +108,15 @@ jQuery(document).ready(function () {
     jQuery('#bankId').on('change',function(){
         var bankId = jQuery(this).val();
         if( bankId ){
+            handleMoney(procentValue,timeVay)
             jQuery('#cardType').prop('disabled',false);
         }else{
             jQuery('#cardType').find('option:first-child').prop('selected',true);
             jQuery('#cardType').prop('disabled',true);
         }
+    });
+    jQuery('#cardType').on('change',function(){
+        handleMoney(procentValue,timeVay);
     });
 });
 /*
