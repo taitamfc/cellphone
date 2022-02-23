@@ -872,7 +872,7 @@ margin-right: auto;
     text-transform: unset;
   }
   .search-form  {
-    width: 70%;
+    width: 65%;
   }
 
   .hdevvn_cats a {
@@ -1950,6 +1950,22 @@ box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
       }
       .cart-header p {
         padding-left: 5px;
+      }
+      /* checkout */
+      .checkout-three-column-layout {
+        display: block !important;
+    }
+    .process-item .icon {
+        border-radius: 50%;
+        border: 1px solid #777;
+          border-top-color: rgb(119, 119, 119);
+          border-right-color: rgb(119, 119, 119);
+          border-bottom-color: rgb(119, 119, 119);
+          border-left-color: rgb(119, 119, 119);
+        width: 35px;
+        height: 35px;
+        margin: auto;
+        position: relative;
       }
   @media(max-width: 768px){
       .hdevvn-show-cats,.footer.footer-1{
