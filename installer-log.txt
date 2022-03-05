@@ -1,0 +1,379 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:55:50
+* VERSION: 3.6.0.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PHP:		7.4.27 | SAPI: apache2handler
+PHP MEMORY:	5000M | SUHOSIN: disabled
+SERVER:		Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/7.4.27
+DOC ROOT:	C:/xampp7/htdocs/cellphone
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://localhost/cellphone/dpro-installer/main.installer.php?archive=C%3A%2Fxampp7%2Fhtdocs%2Fcellphone%2F20220207_muasmartphonechinhhangtrag_09199d2af98128475793_20220207054758_archive.zip&bootloader=installer.php&
+SAFE MODE :	0
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME:	20220207_muasmartphonechinhhangtrag_09199d2af98128475793_20220207054758_archive.zip
+SIZE:	60.02MB
+
+>>> Starting ZipArchive Unzip
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 15920
+    [filename] => C:\xampp7\htdocs\cellphone\20220207_muasmartphonechinhhangtrag_09199d2af98128475793_20220207054758_archive.zip
+    [comment] => 
+)
+File timestamp set to Current: 2022-02-10 04:57:21
+<<< ZipArchive Unzip Complete: true
+Resetting permissions
+
+WEB SERVER CONFIGURATION FILE STATUS:
+- .htaccess file was not reset or backed up.
+- .user.ini file was not reset or backed up.
+- web.config file was not reset or backed up.
+
+STEP-1 COMPLETE @ 04:57:32 - RUNTIME: 101.5452 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 04:57:46
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.22 -- Build Server: 10.4.22
+FILE SIZE:	database.sql (8.21MB) - installer-data.sql (8.21MB)
+TIMEOUT:	28800
+MAXPACK:	1048576
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp7/htdocs/cellphone/installer-data.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1048
+
+pt_actionscheduler_actions: (2)
+pt_actionscheduler_claims: (0)
+pt_actionscheduler_groups: (1)
+pt_actionscheduler_logs: (6)
+pt_commentmeta: (0)
+pt_comments: (1)
+pt_duplicator_pro_entities: (5)
+pt_duplicator_pro_packages: (0)
+pt_links: (0)
+pt_options: (379)
+pt_postmeta: (1258)
+pt_posts: (168)
+pt_term_relationships: (133)
+pt_term_taxonomy: (66)
+pt_termmeta: (146)
+pt_terms: (66)
+pt_usermeta: (70)
+pt_users: (1)
+pt_wc_admin_note_actions: (39)
+pt_wc_admin_notes: (36)
+pt_wc_category_lookup: (80)
+pt_wc_customer_lookup: (0)
+pt_wc_download_log: (0)
+pt_wc_order_coupon_lookup: (0)
+pt_wc_order_product_lookup: (0)
+pt_wc_order_stats: (0)
+pt_wc_order_tax_lookup: (0)
+pt_wc_product_meta_lookup: (0)
+pt_wc_rate_limits: (0)
+pt_wc_reserved_stock: (0)
+pt_wc_tax_rate_classes: (0)
+pt_wc_webhooks: (0)
+pt_wfblockediplog: (0)
+pt_wfblocks7: (0)
+pt_wfconfig: (245)
+pt_wfcrawlers: (0)
+pt_wffilechanges: (0)
+pt_wffilemods: (7923)
+pt_wfhits: (4)
+pt_wfhoover: (0)
+pt_wfissues: (7)
+pt_wfknownfilelist: (7923)
+pt_wflivetraffichuman: (0)
+pt_wflocs: (0)
+pt_wflogins: (4)
+pt_wfnotifications: (5)
+pt_wfpendingissues: (0)
+pt_wfreversecache: (0)
+pt_wfsnipcache: (0)
+pt_wfstatus: (2582)
+pt_wftrafficrates: (0)
+pt_woocommerce_api_keys: (0)
+pt_woocommerce_attribute_taxonomies: (0)
+pt_woocommerce_downloadable_product_permissions: (0)
+pt_woocommerce_log: (0)
+pt_woocommerce_order_itemmeta: (9)
+pt_woocommerce_order_items: (1)
+pt_woocommerce_payment_tokenmeta: (0)
+pt_woocommerce_payment_tokens: (0)
+pt_woocommerce_sessions: (1)
+pt_woocommerce_shipping_zone_locations: (0)
+pt_woocommerce_shipping_zone_methods: (0)
+pt_woocommerce_shipping_zones: (0)
+pt_woocommerce_tax_rate_locations: (0)
+pt_woocommerce_tax_rates: (0)
+pt_wow_fmp: (1)
+wp_actionscheduler_actions: (235)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (705)
+wp_commentmeta: (2)
+wp_comments: (2)
+wp_duplicator_pro_entities: (5)
+wp_duplicator_pro_packages: (0)
+wp_links: (0)
+wp_options: (411)
+wp_postmeta: (7308)
+wp_posts: (666)
+wp_social_users: (0)
+wp_term_relationships: (211)
+wp_term_taxonomy: (100)
+wp_termmeta: (194)
+wp_terms: (100)
+wp_usermeta: (37)
+wp_users: (1)
+wp_wc_admin_note_actions: (46)
+wp_wc_admin_notes: (43)
+wp_wc_category_lookup: (53)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (297)
+wp_wc_rate_limits: (0)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (10)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+wp_woof_query_cache: (0)
+wp_yith_wcwl: (0)
+wp_yith_wcwl_lists: (0)
+wp_yoast_indexable: (96)
+wp_yoast_indexable_hierarchy: (27)
+wp_yoast_migrations: (23)
+wp_yoast_primary_term: (2)
+wp_yoast_seo_links: (14)
+Removed '211' cache/transient rows
+
+INSERT DATA RUNTIME: 3.7795 sec.
+STEP-2 COMPLETE @ 04:57:50 - RUNTIME: 3.9921 sec.
+
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:57:55
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+Subsite id=-1
+pt_actionscheduler_actions~ (2)
+pt_actionscheduler_claims^ (0)
+pt_actionscheduler_groups~ (1)
+pt_actionscheduler_logs~ (6)
+pt_commentmeta^ (0)
+pt_comments~ (1)
+pt_duplicator_pro_entities~ (5)
+pt_duplicator_pro_packages^ (0)
+pt_links^ (0)
+pt_options~ (379)
+pt_postmeta~ (1258)
+pt_posts~ (168)
+pt_term_relationships~ (133)
+pt_term_taxonomy~ (66)
+pt_termmeta~ (146)
+pt_terms~ (66)
+pt_usermeta~ (70)
+pt_users~ (1)
+pt_wc_admin_note_actions~ (39)
+pt_wc_admin_notes~ (36)
+pt_wc_category_lookup~ (80)
+pt_wc_customer_lookup^ (0)
+pt_wc_download_log^ (0)
+pt_wc_order_coupon_lookup^ (0)
+pt_wc_order_product_lookup^ (0)
+pt_wc_order_stats^ (0)
+pt_wc_order_tax_lookup^ (0)
+pt_wc_product_meta_lookup^ (0)
+pt_wc_rate_limits^ (0)
+pt_wc_reserved_stock^ (0)
+pt_wc_tax_rate_classes^ (0)
+pt_wc_webhooks^ (0)
+pt_wfblockediplog^ (0)
+pt_wfblocks7^ (0)
+pt_wfconfig~ (245)
+pt_wfcrawlers^ (0)
+pt_wffilechanges^ (0)
+pt_wffilemods~ (7923)
+pt_wfhits~ (4)
+pt_wfhoover^ (0)
+pt_wfissues~ (7)
+pt_wfknownfilelist~ (7923)
+pt_wflivetraffichuman^ (0)
+pt_wflocs^ (0)
+pt_wflogins~ (4)
+pt_wfnotifications~ (5)
+pt_wfpendingissues^ (0)
+pt_wfreversecache^ (0)
+pt_wfsnipcache^ (0)
+pt_wfstatus~ (2582)
+pt_wftrafficrates^ (0)
+pt_woocommerce_api_keys^ (0)
+pt_woocommerce_attribute_taxonomies^ (0)
+pt_woocommerce_downloadable_product_permissions^ (0)
+pt_woocommerce_log^ (0)
+pt_woocommerce_order_itemmeta~ (9)
+pt_woocommerce_order_items~ (1)
+pt_woocommerce_payment_tokenmeta^ (0)
+pt_woocommerce_payment_tokens^ (0)
+pt_woocommerce_sessions~ (1)
+pt_woocommerce_shipping_zone_locations^ (0)
+pt_woocommerce_shipping_zone_methods^ (0)
+pt_woocommerce_shipping_zones^ (0)
+pt_woocommerce_tax_rate_locations^ (0)
+pt_woocommerce_tax_rates^ (0)
+pt_wow_fmp~ (1)
+wp_actionscheduler_actions~ (235)
+wp_actionscheduler_claims^ (0)
+wp_actionscheduler_groups~ (3)
+wp_actionscheduler_logs~ (705)
+wp_commentmeta~ (2)
+wp_comments~ (2)
+wp_duplicator_pro_entities~ (5)
+wp_duplicator_pro_packages^ (0)
+wp_links^ (0)
+wp_options~ (411)
+wp_postmeta~ (7308)
+wp_posts~ (666)
+wp_social_users^ (0)
+wp_term_relationships~ (211)
+wp_term_taxonomy~ (100)
+wp_termmeta~ (194)
+wp_terms~ (100)
+wp_usermeta~ (37)
+wp_users~ (1)
+wp_wc_admin_note_actions~ (46)
+wp_wc_admin_notes~ (43)
+wp_wc_category_lookup~ (53)
+wp_wc_customer_lookup^ (0)
+wp_wc_download_log^ (0)
+wp_wc_order_coupon_lookup^ (0)
+wp_wc_order_product_lookup^ (0)
+wp_wc_order_stats^ (0)
+wp_wc_order_tax_lookup^ (0)
+wp_wc_product_meta_lookup~ (297)
+wp_wc_rate_limits^ (0)
+wp_wc_reserved_stock^ (0)
+wp_wc_tax_rate_classes~ (2)
+wp_wc_webhooks^ (0)
+wp_woocommerce_api_keys^ (0)
+wp_woocommerce_attribute_taxonomies~ (10)
+wp_woocommerce_downloadable_product_permissions^ (0)
+wp_woocommerce_log^ (0)
+wp_woocommerce_order_itemmeta^ (0)
+wp_woocommerce_order_items^ (0)
+wp_woocommerce_payment_tokenmeta^ (0)
+wp_woocommerce_payment_tokens^ (0)
+wp_woocommerce_sessions~ (1)
+wp_woocommerce_shipping_zone_locations^ (0)
+wp_woocommerce_shipping_zone_methods^ (0)
+wp_woocommerce_shipping_zones^ (0)
+wp_woocommerce_tax_rate_locations^ (0)
+wp_woocommerce_tax_rates^ (0)
+wp_woof_query_cache^ (0)
+wp_yith_wcwl^ (0)
+wp_yith_wcwl_lists^ (0)
+wp_yoast_indexable~ (96)
+wp_yoast_indexable_hierarchy~ (27)
+wp_yoast_migrations~ (23)
+wp_yoast_primary_term~ (2)
+wp_yoast_seo_links~ (14)
+--------------------------------------
+Search1:	'E:/xampp/htdocs/cellphonesnew' 
+Change1:	'C:/xampp7/htdocs/cellphone' 
+Search2:	'E:\/xampp\/htdocs\/cellphonesnew' 
+Change2:	'C:\/xampp7\/htdocs\/cellphone' 
+Search3:	'E%3A%2Fxampp%2Fhtdocs%2Fcellphonesnew%2F' 
+Change3:	'C%3A%2Fxampp7%2Fhtdocs%2Fcellphone%2F' 
+Search4:	'E:\xampp\htdocs\cellphonesnew' 
+Change4:	'C:/xampp7/htdocs/cellphone' 
+Search5:	'//localhost/cellphonesnew' 
+Change5:	'//localhost/cellphone' 
+Search6:	'\/\/localhost\/cellphonesnew' 
+Change6:	'\/\/localhost\/cellphone' 
+Search7:	'%2F%2Flocalhost%2Fcellphonesnew' 
+Change7:	'%2F%2Flocalhost%2Fcellphone' 
+SCANNED:	Tables:121 	|	 Rows:31756 	|	 Cells:180901 
+UPDATED:	Tables:4 	|	 Rows:778 	|	 Cells:806 
+ERRORS:		0 
+RUNTIME:	1.465300 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG ARK FILE:
+ - 'C:/xampp7/htdocs/cellphone/wp-config-arc.txt'
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Removed '0' schedule storage items
+
+====================================
+NOTICES
+====================================
+
+No General Notices Found
+
+
+STEP-3 COMPLETE @ 04:57:56 - RUNTIME: 1.4855 sec. 
+
+
