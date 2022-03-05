@@ -865,12 +865,15 @@ margin-right: auto;
     width: 24px !important;
 }
 .item-about h5, .item-about h6 {
-    font-size: 12px;
-    line-height: 1.2;
-    color: #ffffff;
-    font-weight: 100;
-    text-transform: unset;
-  }
+	font-size: 12px;
+	line-height: 1.2;
+	color: #ffffff;
+	font-weight: 100;
+	text-transform: unset;
+	width: auto;
+	margin-bottom: 0 !important;
+	opacity: 1 !important;
+}
   .search-form  {
     width: 65%;
   }
@@ -1967,6 +1970,13 @@ box-shadow: rgba(60, 64, 67, 0.1) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
         margin: auto;
         position: relative;
       }
+
+      /**/
+      /* .header-block-block-1 .col {
+        width: 25%;
+        max-width: 25%;
+        flex-basis: 25%;
+    } */
   @media(max-width: 768px){
       .hdevvn-show-cats,.footer.footer-1{
           display: none;
