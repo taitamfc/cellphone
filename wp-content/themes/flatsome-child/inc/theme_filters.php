@@ -3,7 +3,7 @@
 add_filter( 'woocommerce_product_tabs', 'filter_woocommerce_product_tabs', 10, 1 ); 
 
 //boc the html cho rating
-add_filter( 'woocommerce_product_get_rating_html','theme_woocommerce_product_get_rating_html',10,3 );
+add_filter( 'woocommerce_product_get_rating_html','theme_woocommerce_product_get_rating_html',99,3 );
 
 function theme_woocommerce_product_get_rating_html($html, $rating, $count){
   global $product;
