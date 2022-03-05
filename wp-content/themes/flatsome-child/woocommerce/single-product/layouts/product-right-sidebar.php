@@ -103,6 +103,7 @@
 				 */
 				do_action( 'woocommerce_after_single_product_summary' );
 			?>
+			
 			<?php
 				comments_template();
 			?>
