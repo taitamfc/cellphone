@@ -54,6 +54,9 @@ function theme_show_desc_and_info(){
                     </div>
                 </div>
             </div>
+            <div class="block-blog-content">
+            <?php comments_template(); ?>
+            </div>
         </div>
         <div class="col large-4">
             <div id="id_33485" class="block-technical-info">
@@ -123,7 +126,7 @@ function theme_show_desc_and_info(){
                     </table>
                 </div>
                 <div class="box-btn-show-more" id="more-specific">
-                    <a href="javascript:void(0)" class="btn-show-more cta-xem-cau-hinh" data-toggle="modal" data-target="#technicalInfoModal">Xem cấu hình chi tiết <i class="fas fa-chevron-down"></i></a>
+                    <a href="#technicalInfoModal" class="btn-show-more cta-xem-cau-hinh" data-toggle="modal" data-target="#technicalInfoModal">Xem cấu hình chi tiết <i class="fas fa-chevron-down"></i></a>
                 </div>
             </div>
             <div class="block-news">
@@ -146,6 +149,7 @@ function theme_show_desc_and_info(){
             </div>
         </div>
     </div>
+    <?php echo do_shortcode('[lightbox id="technicalInfoModal" width="600px" padding="20px"][product_technicalInfoModal][/lightbox]');?>
     <?php
     echo ob_get_clean();
 }
